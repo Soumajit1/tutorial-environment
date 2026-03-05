@@ -18,7 +18,7 @@ To log in browse to [localhost:3000](http://localhost:3000).
 NOTE:
 To facilitate the demo, **login has been disabled**, and anonymous access is granted admin privileges. For security reasons, we advise keeping login enabled in your Grafana instance.
 
-If you want to follow the tutorial with login enabled, you can comment the following lines of the [docker-compose file](docker-compose.yml)
+
 
 
       - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin 
